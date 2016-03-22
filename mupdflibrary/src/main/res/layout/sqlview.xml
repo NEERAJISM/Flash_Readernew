@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="100"
+    >
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_weight="15"
+        android:id="@+id/tvKey"
+        android:text="key"
+        android:textColor="#2f2f2f"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="#2f2f2f"
+        android:paddingTop="20dp"
+        android:textSize="25dp"
+        android:layout_weight="70"
+        android:id="@+id/tvDef"
+        android:text="definition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
